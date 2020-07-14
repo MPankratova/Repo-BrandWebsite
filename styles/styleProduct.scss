@@ -383,7 +383,7 @@ footer {
     color: #636363;
 }
 
-.navArrivals a::nth-child-child-child{
+.navArrivals a:last-child {
     font-weight: 700;
     color: $mainPingColor;
 }
@@ -687,7 +687,7 @@ footer {
     color: #ef5b70;
     border-bottom: 1px solid #ebebeb;
     cursor: pointer;
-    background: url(../images/caret-down-solid.svg) repeat-repeat right 5px center;
+    background: url(../images/caret-down-solid.svg) no-repeat right 5px center;
     background-size: 10px;
 }
 
@@ -741,7 +741,7 @@ footer {
             display: inline-block;
             width: 13px;
             height: 13px;
-            background: url(../images/checkbox.png) repeat-repeat;
+            background: url(../images/checkbox.png) no-repeat;
         }
 
         input[type="checkbox"] {
@@ -750,8 +750,8 @@ footer {
 
         input[type="checkbox"]:checked + .productsCheckbox {
             background: 
-                url(../images/checkbox.png) repeat-repeat,
-                url(../images/check-solid.svg) repeat-repeat
+                url(../images/checkbox.png) no-repeat,
+                url(../images/check-solid.svg) no-repeat
                 ;
             background-size: 
                 contain,
